@@ -1,11 +1,61 @@
-/* 
+/* Contenedor principal */
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f3f4f6;
+  font-family: Arial, sans-serif;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+/* Título */
+h1 {
+  margin-bottom: 20px;
+}
 
-*/
+/* Caja del contador */
+.contador {
+  font-size: 3rem;
+  background: white;
+  padding: 20px 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor de botones */
+.botones {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Estilo base de botones */
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Botón iniciar */
+.iniciar {
+  background: #22c55e;
+}
+
+/* Botón pausar */
+.pausar {
+  background: #eab308;
+}
+
+/* Botón reiniciar */
+.reiniciar {
+  background: #ef4444;
+}
+
+/* Hover */
+.btn:hover {
+  opacity: 0.85;
+}
